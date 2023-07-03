@@ -6,9 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 import java.util.StringTokenizer;
 
 public class Prob1269 {
@@ -40,9 +38,6 @@ public class Prob1269 {
         // map.size() - (total - map.size())
         // bw.write(map.size() - (total - map.size()) + ""); 이니까 아래처럼 된것
         bw.write(map.size() * 2 - total + "");
-
-
-
 
         /* 내코드
         Set<Integer> set1 = new HashSet<>();
