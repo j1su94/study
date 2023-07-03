@@ -21,7 +21,7 @@ public class Prob1269 {
         int m = Integer.parseInt(st.nextToken());
         int total = n + m;
 
-        /* 참고 코드 */
+        /* 참고코드 */
         Map<Integer, Boolean> map = new HashMap<>();
 
         st = new StringTokenizer(br.readLine());
