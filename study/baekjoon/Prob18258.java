@@ -3,7 +3,6 @@ package baekjoon;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -51,7 +50,6 @@ public class Prob18258 {
                     }
                     break;
                 case "back":
-                    /* Iterator 클래스를 사용하여 값 출력 */
                     if(queue.size() > 0) {
                         sb.append(last).append("\n");
                     } else {
