@@ -22,7 +22,7 @@ class Prob82612 {
             return result < 0 ? result * -1 : 0;*/
 
             /* 참고코드 */
-            // 등차수열 -> 공식 : n(n+1) / 2 (n : n번째 까지 항의 개수)
+            // 등차수열 -> 공식 : n(a+l) / 2 (n: n번째 까지 항의 개수, a: 시작하는 수, l: 마지막 숫자)
             result -= (long) price * (count * (count + 1) / 2);
 
             return Math.max(-result, 0);
